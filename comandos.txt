@@ -1,0 +1,11 @@
+# === PYTHON ===
+
+
+# === GITHUB ===
+
+# estado de la branch
+git status
+
+# guardar cambios
+git add 
+
