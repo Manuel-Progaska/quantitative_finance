@@ -77,7 +77,7 @@ confidence = st.sidebar.selectbox('Nivel de Confianza', ['95%', '99%'])
 confidence = complemento_confianza(confianza_str=confidence)
 st.session_state.confidence = np.round(confidence,2)
 
-st.write(st.session_state)
+
 
 df = risk(
     start = st.session_state.start,
